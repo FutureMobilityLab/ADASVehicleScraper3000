@@ -3,9 +3,12 @@ This is a Jupyter Notebook program that can automatically scrape about nine car 
 ADAS (advanced driving assist systems) features come standard, and output an Excel sheet in the form of a csv with this information. 
 
 This repo mainly contains the one `rowgenerator.ipynb` file and its backups. 
-The file contains the main program, split into two main sections.
+This file contains the main program, split into two main sections.
 The first defines the webscraper functions and logic, the other (much longer) section contains all the calls of the function on manufacturer's websites.
-Currently, logic and calls are present for nine manufacturers. Ford, BMW, Chevrolet, Toyota, Honda, Nissan, Jeep, Subara, and Mercedes-Benz. More can be added.
+
+It also contains a `translations.csv` file that contains translations of the ADAS features (manufacturer jargon to NHTSA terminology) for the program to use.
+
+Currently, logic, calls, and translations are present for nine manufacturers. Ford, BMW, Chevrolet, Toyota, Honda, Nissan, Jeep, Subara, and Mercedes-Benz. More can be added.
 
 
 # Quick Overview of Design:
