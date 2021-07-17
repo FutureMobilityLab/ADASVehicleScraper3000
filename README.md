@@ -28,8 +28,9 @@ This websiteoutput() function, in the second section, is run on all car models a
 
 
 FYI: This program worked as of July 2021, and even then barely. As a webscraper dependent on specific websites, it is not robust in the slightest.
-It is most likely (completely certain, actually) that the program will not remain functional without being maintained. Check the last commit before using.
-Otherwise, any number of things could go wrong. 
+It is most likely (completely certain, actually) that the program will not remain functional without being maintained. Any number of things could go wrong. 
  - The same year versions of cars will not be sold, breaking the list of URLs. 
  - Manufacturer websites could change, rendering some of the program logic wrong. 
  - New features could be released, or change names, causing them to be missed by the translations.csv and the program.
+
+Check the last commit date before using, or update the URLs and translations csv yourself.
